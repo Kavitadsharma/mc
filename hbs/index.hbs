@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Add a container to hold both the image and text */
+        body{
+            margin-top: 29%;
+            height:100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+           hheight:100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .container div{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 42;
+            gap: 2px;
+             
+
+        }
+        .container div h2{
+            padding-bottom: 4px;
+        }
+        .container div span{
+           
+            position: relative;
+            bottom: 8px;
+            margin-top: 2px;
+            padding-bottom: 4px;
+        }
+     
+
+    </style>
+    <title>Certificate</title>
+</head>
+<body>
+    <div class="container">
+        
+        <img src="https://res.cloudinary.com/dic8gep25/image/upload/v1694362011/certificate_nmnglm.png" alt="Snow" style="width:100%;">
+           <div>
+            <h2>{{studentName}}</h2>
+        <span>Participated in the {{webinarTitle}}Workshop on {{date}}</span>
+</div>
+
+            
+       
+    
+    </div>
+</body>
+</html>
+
+
